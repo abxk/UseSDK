@@ -1,0 +1,38 @@
+{
+    "name": "abxk/use-sdk",
+    "description": "use the SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lixuecong",
+            "email": "lixuecong@lixuecong.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "abxk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "abxk\\test\\": "test/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "guzzlehttp/guzzle": "^7.4",
+        "abxk/container": "^2.0",
+        "abxk/helper": "^1.0",
+        "abxk/pipeline": "^1.0",
+        "ext-json": "*",
+        "ext-openssl": "*",
+      "ext-simplexml": "*",
+        "ext-libxml": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "mockery/mockery": "^1.5",
+        "symfony/var-dumper": "^5.4"
+    }
+}
